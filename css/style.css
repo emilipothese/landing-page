@@ -1,0 +1,76 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: #22223b;
+  padding: 50px 0;
+  margin-top: 50px;
+  color: #2a9d8f;
+  text-align: center;
+}
+
+.fa-heart {
+  color: #f72585;
+}
+
+.fa-facebook-f, .fa-github, .fa-instagram {
+  width: 2em;
+  font-size: 42px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
